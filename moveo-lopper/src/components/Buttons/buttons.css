@@ -1,0 +1,33 @@
+.state{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    transition: backgroung-color 1.0s ease-in-out; 
+    border-radius: 50%;
+  box-shadow: 0px 0px 8px 100px rgba(255, 255, 255, 0.301);
+
+}
+
+.pausePlaybutton{
+    height: 2.5em;
+    font-size: 1.2rem;
+    outline:none;
+    box-shadow: 0 0.3rem rgba(255, 255, 255, 0.301);
+}
+
+.buttons_container{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  
+  .inactive{
+    background: rgb(172,253,254);
+    background: linear-gradient(0deg, rgba(172,253,254,1) 0%, rgba(90,172,178,1) 61%, rgba(255,255,255,1) 87%);
+  }
+  
+  .active{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(234,241,245,1) 100%);
+  }

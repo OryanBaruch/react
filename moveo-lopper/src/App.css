@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Georgia, serif;
+  text-shadow: 6px 8px 8px rgba(255, 255, 255, 0.301);
+}
+
+.toggleAllButton{
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.contianer{
+  background: rgb(45,240,221);
+  background: linear-gradient(90deg, rgba(45,240,221,1) 0%, rgba(45,204,223,1) 13%, rgba(0,1,1,1) 43%, rgba(47,0,237,0.9279061966583508) 92%);
+}
